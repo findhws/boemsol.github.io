@@ -1,0 +1,51 @@
+*{padding: 0;margin: 0;}
+ul li{list-style: none;}
+ol li{list-style: none;}
+a{text-decoration: none; color: black;}
+@font-face {
+    font-family: "Jersey 25";
+    src: url("../images/ll8-K2eeXj2tAs6F9BX4IIoNvAwShQ.woff2") format("woff2");
+}
+body {
+    background: url("../images/banner.jpg") center/cover no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    padding: 1px;
+}
+.box {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+.box h2 {
+    font-family: "Jersey 25", serif;
+    font-size: 24px;
+}
+.box img {
+    width: 270px;
+    display: block;
+    margin-top: -20px;
+}
+.box p {
+    font-family: "Jersey 25", serif;
+    font-size: 12px;
+}
+.box h3 {
+    font-family: "Jersey 25", serif;
+    font-size: 36px;
+    padding: 0;
+    margin: -15px 0 10px;
+}
+.box .icon {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.box h4 {
+    width: 90%;
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: justify;
+}

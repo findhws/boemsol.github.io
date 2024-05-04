@@ -1,0 +1,57 @@
+*{padding: 0;margin: 0;}
+ul li{list-style: none;}
+ol li{list-style: none;}
+a{text-decoration: none; color: black;}
+@font-face {
+    font-family: "Jersey 25";
+    src: url("../images/ll8-K2eeXj2tAs6F9BX4IIoNvAwShQ.woff2") format("woff2");
+}
+body {
+    background: url("../images/banner.jpg") center/cover no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    padding: 1px;
+}
+.box {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+.box h2 {
+    font-family: "Jersey 25", serif;
+    font-size: 36px;
+}
+.box img {
+    width: 300px;
+    display: block;
+}
+.box p {
+    font-family: "Jersey 25", serif;
+    font-size: 28px;
+}
+.box h3 {
+    font-family: "Jersey 25", serif;
+    font-size: 36px;
+    padding: 20px 0 20px;
+}
+.box .icon {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.box .icon svg:hover {
+    opacity: 0.7;
+    transition: .7s;
+}
+.box h4 {
+    width: 50%;
+    margin: 20px auto 0;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: justify;
+}
+.box h4 strong {
+    font-weight: bold;
+}
