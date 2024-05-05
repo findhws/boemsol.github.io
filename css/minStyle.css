@@ -31,6 +31,8 @@ body {
 .box p {
     font-family: "Jersey 25", serif;
     font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 20px;
 }
 .box h3 {
     font-family: "Jersey 25", serif;
